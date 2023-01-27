@@ -1,0 +1,36 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #78CEE9;
+    color: white;
+}
+
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 5px solid #00CB4A;
+}
+
+img {
+    width: 25%;
+    max-height: 100%;
+    max-width: 100%;
+    float: right;
+    margin: 0 3em 3em 3em;
+}
+
+p {
+    margin: 0 2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
