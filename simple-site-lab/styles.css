@@ -2,16 +2,19 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: #78CEE9;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 div {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
     border: 5px solid #00CB4A;
 }
 
@@ -25,12 +28,44 @@ img {
 
 p {
     margin: 0 2em;
+    font-size: 18px;
 }
 
 h1 {
     text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-top: 35px;
 }
 
-nav li {
+h2 {
+    margin: 0 1.5em;
+    padding-bottom: 20px;
+}
+
+li {
     display: inline;
+    font-weight: 700;
+}
+
+nav {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: #00CB9D;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+nav li+li:before {
+    content: " | ";
+    padding: 0 5px;
+    color: #808080;
 }
