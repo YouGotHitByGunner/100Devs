@@ -1,0 +1,17 @@
+header {
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+
+section {
+    float: left;
+    width: 33.3%;
+    height: 300px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: 200px;
+}
