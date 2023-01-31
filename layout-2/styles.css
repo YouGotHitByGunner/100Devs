@@ -8,21 +8,21 @@ header, footer {
     clear: both;
 }
 
-.section1 {
+header + section {
     height: 200px;
     width: 100%;
     border: 3px solid black;
     float: left;
 }
 
-.section2 {
+header + section + section {
     height: 300px;
     width: 40%;
     border: 3px solid black;
     float: left;
 }
 
-.section3 {
+header + section + section + section {
     height: 300px;
     width: 60%;
     border: 3px solid black;

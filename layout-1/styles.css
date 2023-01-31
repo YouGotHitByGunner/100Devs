@@ -8,14 +8,14 @@ header, footer {
     clear: both;
 }
 
-.section1 {
+section {
     height: 300px;
     width: 33.33%;
     border: 3px solid black;
     float: left;
 }
 
-.section2 {
+div {
     height: 300px;
     width: 50%;
     border: 3px solid black;
