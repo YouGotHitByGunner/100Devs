@@ -20,6 +20,10 @@ section {
     section {
         width: 50%;
     }
+
+    .lastSection {
+        width: 100%;
+    }
 }
 
 @media (max-width: 400px) {
