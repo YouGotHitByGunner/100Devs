@@ -5,34 +5,32 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
+body {}
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
-height: 55px;
-background: black;
-color: white;
+  height: 55px;
+  background: black;
+  color: white;
 }
 
 nav * {
@@ -46,26 +44,105 @@ nav ul {
   width: 50%;
 }
 
+.sign-in {
+  margin-top: 16px;
+}
+
 nav form input {
+  margin-top: 15px;
   width: 100%;
 }
 
-main + section > section {
+main+section>section {
   width: 33.33%;
   float: left;
 }
 
-main > section {
+main>section {
   width: 50%;
   height: 500px;
   float: left;
 }
 
-main section + section section {
+main section+section section {
   width: 50%;
   height: 250px;
   float: left;
   border: 1px solid black;
+}
+
+header img {
+  width: 90%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-article {
+  background-image: url('../israel.jpg');
+  background-size: cover;
+  color: white;
+  padding-top: 300px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.americans {
+  background-image: url('../americans.jpg');
+  background-size: cover;
+}
+
+.vaccine {
+  background-image: url('../vaccine.jpg');
+  background-size: cover;
+}
+
+.gym {
+  background-image: url('../gym.jpg');
+  background-size: cover;
+}
+
+.music {
+  background-image: url('../music.jpg');
+  background-size: cover;
+}
+
+.americans,
+.vaccine,
+.gym,
+.music {
+  color: white;
+  padding-top: 120px;
+  text-shadow: 1px 1px 2px black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  padding-left: 20px;
+}
+
+.welcome,
+.date {
+  width: 50%;
+  height: 30px;
+  float: left;
+  margin-top: 20px;
+}
+
+.welcome {
+  color: #4A4A4A;
+  padding-left: 10px;
+}
+
+.date {
+  text-align: right;
+  padding-right: 10px;
+  font-size: 20px;
+  color: #8C8C8C;
+}
+
+main {
+  clear: both;
 }
 
 /******************************************
